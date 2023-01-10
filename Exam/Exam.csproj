@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ex1\Cylinder.cs" />
+    <Compile Include="ex2\Animal.cs" />
+    <Compile Include="ex2\Lion.cs" />
+    <Compile Include="ex2\Tiger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

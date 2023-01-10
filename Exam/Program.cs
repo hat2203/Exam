@@ -1,4 +1,5 @@
 ﻿using Exam.ex1;
+using Exam.ex2;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,11 @@ namespace Exam
             Cylinder c = new Cylinder();
             c.Input();
             c.Result();
+
+            Animal an = new Animal(100, "Lion");
+            an.Show();
+            Animal am = new Animal(120, "Tiger");
+            am.Show();
         }
     }
 }
